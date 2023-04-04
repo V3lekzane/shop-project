@@ -5,4 +5,35 @@
 body {
     font-family: 'Emblema One', cursive;
     font-family: 'Roboto', sans-serif;
+    background-image: url(images/patt.png);
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row{
+    display: flex;
+    margin: 0 -15px;
+}
+.col-3{
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+.col-6{
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+[class="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header{
+    display: flex;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
 }
