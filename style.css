@@ -60,7 +60,9 @@ body {
   background-color: #2c71b8;
   color: white;
 }
-
+.product{
+  display: flex;
+}
 .product-list {
   display: none;
   position: absolute;
@@ -91,8 +93,7 @@ body {
 }
 .product-image {
   float: right;
-  margin-top: 18px;
-  margin-right: 10px;
+  margin-top: 20px;
 }
 .menu li:hover .product-image {
   transform: rotate(180deg);
